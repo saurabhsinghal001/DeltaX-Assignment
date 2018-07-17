@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-skipped">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>D:\DeltaXAssignment\DeltaXAssignment\XmlSuite\Suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods,  34 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods skipped suite-Suite1"> (hide)</a> <!-- hide-methods skipped suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods skipped suite-Suite1"> (show)</a> <!-- show-methods skipped suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC011, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">verifyRegistrationPageForManadatoryField(TC011, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC023, Saurabh, singhal, Support, saurabhsinghal001, password123, password124, xyz@gmail.com, 113131...)">verifyRegistrationPageForManadatoryField(TC023, Saurabh, singhal, Support, saurabhsinghal001, password123, password124, xyz@gmail.com, 113131...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC019, Saurabh, singhal, Sales, saurabhsinghal002, passwor, passwor, xyz@gmail.com, 1131313131, This...)">verifyRegistrationPageForManadatoryField(TC019, Saurabh, singhal, Sales, saurabhsinghal002, passwor, passwor, xyz@gmail.com, 1131313131, This...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC004, Sa, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)">verifyRegistrationPageForManadatoryField(TC004, Sa, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC029, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gm.ail....)">verifyRegistrationPageForManadatoryField(TC029, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gm.ail....)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC012, Saurabh, singhal, , saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)">verifyRegistrationPageForManadatoryField(TC012, Saurabh, singhal, , saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC028, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gmail.c...)">verifyRegistrationPageForManadatoryField(TC028, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gmail.c...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC030, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabhsinghal001@gmail...)">verifyRegistrationPageForManadatoryField(TC030, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabhsinghal001@gmail...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC021, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">verifyRegistrationPageForManadatoryField(TC021, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC034, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, d...)">verifyRegistrationPageForManadatoryField(TC034, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, d...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC008, Saurabh, s, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)">verifyRegistrationPageForManadatoryField(TC008, Saurabh, s, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC016, Saurabh, singhal, Engineering, saurabhs, password123, password123, xyz@gmail.com, 1131313131,...)">verifyRegistrationPageForManadatoryField(TC016, Saurabh, singhal, Engineering, saurabhs, password123, password123, xyz@gmail.com, 1131313131,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC005, Saura12@, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)">verifyRegistrationPageForManadatoryField(TC005, Saura12@, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC024, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, , 1131313131, Please en...)">verifyRegistrationPageForManadatoryField(TC024, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, , 1131313131, Please en...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC013, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">verifyRegistrationPageForManadatoryField(TC013, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC031, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, 1...)">verifyRegistrationPageForManadatoryField(TC031, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC007, Saurabh, , Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)">verifyRegistrationPageForManadatoryField(TC007, Saurabh, , Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC014, Saurabh, singhal, Sales, , password123, password123, xyz@gmail.com, 1131313131, Please enter ...)">verifyRegistrationPageForManadatoryField(TC014, Saurabh, singhal, Sales, , password123, password123, xyz@gmail.com, 1131313131, Please enter ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC017, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">verifyRegistrationPageForManadatoryField(TC017, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC018, Saurabh, singhal, Sales, saurabhsinghal001, , password123, xyz@gmail.com, 1131313131, Please ...)">verifyRegistrationPageForManadatoryField(TC018, Saurabh, singhal, Sales, saurabhsinghal001, , password123, xyz@gmail.com, 1131313131, Please ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC026, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, saurabhsinghal@gmai...)">verifyRegistrationPageForManadatoryField(TC026, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, saurabhsinghal@gmai...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC015, Saurabh, singhal, Sales, saurabh, password123, password123, xyz@gmail.com, 1131313131, This v...)">verifyRegistrationPageForManadatoryField(TC015, Saurabh, singhal, Sales, saurabh, password123, password123, xyz@gmail.com, 1131313131, This v...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC006, Saurabh, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">verifyRegistrationPageForManadatoryField(TC006, Saurabh, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC025, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyzgmail.com, 113131313...)">verifyRegistrationPageForManadatoryField(TC025, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyzgmail.com, 113131313...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC027, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, #@%^%#$@#$@#.com, 1...)">verifyRegistrationPageForManadatoryField(TC027, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, #@%^%#$@#$@#.com, 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC002, , Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)">verifyRegistrationPageForManadatoryField(TC002, , Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC020, Saurabh, singhal, Sales, saurabhsinghal001, password, password, xyz@gmail.com, 1131313131, ht...)">verifyRegistrationPageForManadatoryField(TC020, Saurabh, singhal, Sales, saurabhsinghal001, password, password, xyz@gmail.com, 1131313131, ht...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC009, Saurabh, si, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)">verifyRegistrationPageForManadatoryField(TC009, Saurabh, si, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC022, Saurabh, singhal, Sales, saurabhsinghal001, pas@sword123, pas@sword123, xyz@gmail.com, 113131...)">verifyRegistrationPageForManadatoryField(TC022, Saurabh, singhal, Sales, saurabhsinghal001, pas@sword123, pas@sword123, xyz@gmail.com, 113131...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC033, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, ,...)">verifyRegistrationPageForManadatoryField(TC033, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC003, S, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)">verifyRegistrationPageForManadatoryField(TC003, S, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC010, Saurabh, sing4*23, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)">verifyRegistrationPageForManadatoryField(TC010, Saurabh, sing4*23, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyRegistrationPageForManadatoryField(TC032, Saurabh, singhal, Sales, saurabhsinghal002, password123, password123, saurabh120@gmail.com, 1...)">verifyRegistrationPageForManadatoryField(TC032, Saurabh, singhal, Sales, saurabhsinghal002, password123, password123, saurabh120@gmail.com, 1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.DeltaX.TestUtility.RegistrationTest" hash-for-method="verifyTitlePage">verifyTitlePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.DeltaX.TestUtility.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC011, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC011, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC011, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC023, Saurabh, singhal, Support, saurabhsinghal001, password123, password124, xyz@gmail.com, 113131...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC023, Saurabh, singhal, Support, saurabhsinghal001, password123, password124, xyz@gmail.com, 113131...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC023, Saurabh, singhal, Support, saurabhsinghal001, password123, password124, xyz@gmail.com, 1131313131, Password Not Matching)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC019, Saurabh, singhal, Sales, saurabhsinghal002, passwor, passwor, xyz@gmail.com, 1131313131, This...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC019, Saurabh, singhal, Sales, saurabhsinghal002, passwor, passwor, xyz@gmail.com, 1131313131, This...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC019, Saurabh, singhal, Sales, saurabhsinghal002, passwor, passwor, xyz@gmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC004, Sa, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC004, Sa, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC004, Sa, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC029, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gm.ail....)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC029, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gm.ail....) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC029, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gm.ail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC012, Saurabh, singhal, , saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC012, Saurabh, singhal, , saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC012, Saurabh, singhal, , saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC028, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gmail.c...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC028, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gmail.c...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC028, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC030, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabhsinghal001@gmail...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC030, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabhsinghal001@gmail...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC030, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabhsinghal001@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC021, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC021, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC021, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC034, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, d...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC034, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, d...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC034, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, dad1234445, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC008, Saurabh, s, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC008, Saurabh, s, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC008, Saurabh, s, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC016, Saurabh, singhal, Engineering, saurabhs, password123, password123, xyz@gmail.com, 1131313131,...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC016, Saurabh, singhal, Engineering, saurabhs, password123, password123, xyz@gmail.com, 1131313131,...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC016, Saurabh, singhal, Engineering, saurabhs, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC005, Saura12@, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC005, Saura12@, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC005, Saura12@, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC024, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, , 1131313131, Please en...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC024, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, , 1131313131, Please en...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC024, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, , 1131313131, Please enter your Email Address)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC013, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC013, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC013, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC031, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, 1...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC031, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, 1...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC031, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC007, Saurabh, , Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC007, Saurabh, , Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC007, Saurabh, , Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Please enter your Last Name)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC014, Saurabh, singhal, Sales, , password123, password123, xyz@gmail.com, 1131313131, Please enter ...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC014, Saurabh, singhal, Sales, , password123, password123, xyz@gmail.com, 1131313131, Please enter ...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC014, Saurabh, singhal, Sales, , password123, password123, xyz@gmail.com, 1131313131, Please enter your Username)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC017, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC017, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC017, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC018, Saurabh, singhal, Sales, saurabhsinghal001, , password123, xyz@gmail.com, 1131313131, Please ...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC018, Saurabh, singhal, Sales, saurabhsinghal001, , password123, xyz@gmail.com, 1131313131, Please ...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC018, Saurabh, singhal, Sales, saurabhsinghal001, , password123, xyz@gmail.com, 1131313131, Please enter your Password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC026, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, saurabhsinghal@gmai...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC026, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, saurabhsinghal@gmai...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC026, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, saurabhsinghal@gmail, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC015, Saurabh, singhal, Sales, saurabh, password123, password123, xyz@gmail.com, 1131313131, This v...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC015, Saurabh, singhal, Sales, saurabh, password123, password123, xyz@gmail.com, 1131313131, This v...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC015, Saurabh, singhal, Sales, saurabh, password123, password123, xyz@gmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC006, Saurabh, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC006, Saurabh, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC006, Saurabh, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC025, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyzgmail.com, 113131313...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC025, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyzgmail.com, 113131313...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC025, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyzgmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC027, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, #@%^%#$@#$@#.com, 1...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC027, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, #@%^%#$@#$@#.com, 1...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC027, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, #@%^%#$@#$@#.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC002, , Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC002, , Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC002, , Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Please enter your First Name)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC020, Saurabh, singhal, Sales, saurabhsinghal001, password, password, xyz@gmail.com, 1131313131, ht...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC020, Saurabh, singhal, Sales, saurabhsinghal001, password, password, xyz@gmail.com, 1131313131, ht...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC020, Saurabh, singhal, Sales, saurabhsinghal001, password, password, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC009, Saurabh, si, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC009, Saurabh, si, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC009, Saurabh, si, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC022, Saurabh, singhal, Sales, saurabhsinghal001, pas@sword123, pas@sword123, xyz@gmail.com, 113131...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC022, Saurabh, singhal, Sales, saurabhsinghal001, pas@sword123, pas@sword123, xyz@gmail.com, 113131...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC022, Saurabh, singhal, Sales, saurabhsinghal001, pas@sword123, pas@sword123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC033, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, ,...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC033, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, ,...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC033, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, , http://adjiva.com/qa-test/thanks.html)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC003, S, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC003, S, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC003, S, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC010, Saurabh, sing4*23, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC010, Saurabh, sing4*23, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC010, Saurabh, sing4*23, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPageForManadatoryField(TC032, Saurabh, singhal, Sales, saurabhsinghal002, password123, password123, saurabh120@gmail.com, 1...)">
+                  </a> <!-- verifyRegistrationPageForManadatoryField(TC032, Saurabh, singhal, Sales, saurabhsinghal002, password123, password123, saurabh120@gmail.com, 1...) -->
+                  <span class="method-name">verifyRegistrationPageForManadatoryField</span>
+                  <span class="parameters">(TC032, Saurabh, singhal, Sales, saurabhsinghal002, password123, password123, saurabh120@gmail.com, 113131313, This value is not valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitlePage">
+                  </a> <!-- verifyTitlePage -->
+                  <span class="method-name">verifyTitlePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-skipped -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\DeltaXAssignment\DeltaXAssignment\XmlSuite\Suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.DeltaX.Listeners.TestListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Registration Page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.DeltaX.TestUtility.RegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Registration Page --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Registration Page (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(0, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(0, 3, 9);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(1, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(1, 3, 6);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(2, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(3, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(4, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(5, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(6, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(7, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(8, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(8, 3, 2);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(9, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(9, 3, 2);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(10, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(10, 3, 2);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(11, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(12, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(13, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(14, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(15, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(16, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(17, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(18, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(19, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(20, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(21, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyTitlePage')
+data.setCell(22, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(23, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(24, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(25, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(26, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(27, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(28, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(29, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(30, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(31, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(32, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyRegistrationPageForManadatoryField')
+data.setCell(33, 2, 'com.DeltaX.TestUtility.RegistrationTest')
+data.setCell(33, 3, 0);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 56 ms</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.DeltaX.TestUtility.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">beforTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC002, , Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)</span>
+                <span class="method-start">2115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC003, S, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)</span>
+                <span class="method-start">2123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC004, Sa, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)</span>
+                <span class="method-start">2137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC005, Saura12@, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)</span>
+                <span class="method-start">2146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC006, Saurabh, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</span>
+                <span class="method-start">2151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC007, Saurabh, , Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Ple...)</span>
+                <span class="method-start">2155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC008, Saurabh, s, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Th...)</span>
+                <span class="method-start">2159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC009, Saurabh, si, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)</span>
+                <span class="method-start">2162 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC010, Saurabh, sing4*23, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313...)</span>
+                <span class="method-start">2169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC011, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</span>
+                <span class="method-start">2174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC012, Saurabh, singhal, , saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, h...)</span>
+                <span class="method-start">2178 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC013, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</span>
+                <span class="method-start">2192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC014, Saurabh, singhal, Sales, , password123, password123, xyz@gmail.com, 1131313131, Please enter ...)</span>
+                <span class="method-start">2197 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC015, Saurabh, singhal, Sales, saurabh, password123, password123, xyz@gmail.com, 1131313131, This v...)</span>
+                <span class="method-start">2205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC016, Saurabh, singhal, Engineering, saurabhs, password123, password123, xyz@gmail.com, 1131313131,...)</span>
+                <span class="method-start">2209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC017, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</span>
+                <span class="method-start">2213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC018, Saurabh, singhal, Sales, saurabhsinghal001, , password123, xyz@gmail.com, 1131313131, Please ...)</span>
+                <span class="method-start">2218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC019, Saurabh, singhal, Sales, saurabhsinghal002, passwor, passwor, xyz@gmail.com, 1131313131, This...)</span>
+                <span class="method-start">2222 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC020, Saurabh, singhal, Sales, saurabhsinghal001, password, password, xyz@gmail.com, 1131313131, ht...)</span>
+                <span class="method-start">2235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC021, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 11313131...)</span>
+                <span class="method-start">2241 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC022, Saurabh, singhal, Sales, saurabhsinghal001, pas@sword123, pas@sword123, xyz@gmail.com, 113131...)</span>
+                <span class="method-start">2252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC023, Saurabh, singhal, Support, saurabhsinghal001, password123, password124, xyz@gmail.com, 113131...)</span>
+                <span class="method-start">2265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC024, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, , 1131313131, Please en...)</span>
+                <span class="method-start">2271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC025, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyzgmail.com, 113131313...)</span>
+                <span class="method-start">2277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC026, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, saurabhsinghal@gmai...)</span>
+                <span class="method-start">2287 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC027, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, #@%^%#$@#$@#.com, 1...)</span>
+                <span class="method-start">2299 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC028, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gmail.c...)</span>
+                <span class="method-start">2312 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC029, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gm.ail....)</span>
+                <span class="method-start">2315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC030, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabhsinghal001@gmail...)</span>
+                <span class="method-start">2318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC031, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, 1...)</span>
+                <span class="method-start">2321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC032, Saurabh, singhal, Sales, saurabhsinghal002, password123, password123, saurabh120@gmail.com, 1...)</span>
+                <span class="method-start">2324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC033, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, ,...)</span>
+                <span class="method-start">2336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPageForManadatoryField(TC034, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, d...)</span>
+                <span class="method-start">2341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTitlePage</span>
+                <span class="method-start">2351 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

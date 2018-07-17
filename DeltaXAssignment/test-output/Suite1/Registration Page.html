@@ -1,0 +1,662 @@
+<html>
+<head>
+<title>TestNG:  Registration Page</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Registration Page</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/34</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 17 18:49:26 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2982 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: session null does not exist (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;A2ML26251&apos;, ip: &apos;192.168.43.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_72&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{data=null, stacktrace=, error=session not created, message=Unexpected error launching Internet Explorer. Browser zoom level was set to 150%. It should be set to 100%, platform=ANY}]
+Session ID: null
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)
+	at com.DeltaX.controller.CommonUtility.CommonUtility(CommonUtility.java:46)
+	at com.DeltaX.TestUtility.RegistrationTest.beforTest(RegistrationTest.java:22)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace101874302", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace101874302'><pre>org.openqa.selenium.remote.SessionNotFoundException: session null does not exist (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;A2ML26251&apos;, ip: &apos;192.168.43.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_72&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{data=null, stacktrace=, error=session not created, message=Unexpected error launching Internet Explorer. Browser zoom level was set to 150%. It should be set to 100%, platform=ANY}]
+Session ID: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)
+	at com.DeltaX.controller.CommonUtility.CommonUtility(CommonUtility.java:46)
+	at com.DeltaX.TestUtility.RegistrationTest.beforTest(RegistrationTest.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.beforTest()'><b>beforTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.afterTest()'><b>afterTest</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC002, , Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Please enter your First Name</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC003, S, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC004, Sa, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC005, Saura12@, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC006, Saurabh, Singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC007, Saurabh, , Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, Please enter your Last Name</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC008, Saurabh, s, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC009, Saurabh, si, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC010, Saurabh, sing4*23, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC011, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC012, Saurabh, singhal, , saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC013, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC014, Saurabh, singhal, Sales, , password123, password123, xyz@gmail.com, 1131313131, Please enter your Username</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC015, Saurabh, singhal, Sales, saurabh, password123, password123, xyz@gmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC016, Saurabh, singhal, Engineering, saurabhs, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC017, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC018, Saurabh, singhal, Sales, saurabhsinghal001, , password123, xyz@gmail.com, 1131313131, Please enter your Password</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC019, Saurabh, singhal, Sales, saurabhsinghal002, passwor, passwor, xyz@gmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC020, Saurabh, singhal, Sales, saurabhsinghal001, password, password, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC021, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC022, Saurabh, singhal, Sales, saurabhsinghal001, pas@sword123, pas@sword123, xyz@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC023, Saurabh, singhal, Support, saurabhsinghal001, password123, password124, xyz@gmail.com, 1131313131, Password Not Matching</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC024, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, , 1131313131, Please enter your Email Address</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC025, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, xyzgmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC026, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, saurabhsinghal@gmail, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC027, Saurabh, singhal, Marketing, saurabhsinghal001, password123, password123, #@%^%#$@#$@#.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC028, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gmail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC029, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh@singhal@gm.ail.com, 1131313131, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC030, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabhsinghal001@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC031, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, 1131313131, http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC032, Saurabh, singhal, Sales, saurabhsinghal002, password123, password123, saurabh120@gmail.com, 113131313, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC033, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, , http://adjiva.com/qa-test/thanks.html</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyRegistrationPageForManadatoryField()'><b>verifyRegistrationPageForManadatoryField</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest<br>Parameters: TC034, Saurabh, singhal, Sales, saurabhsinghal001, password123, password123, saurabh120@gmail.com, dad1234445, This value is not valid</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+<tr>
+<td title='com.DeltaX.TestUtility.RegistrationTest.verifyTitlePage()'><b>verifyTitlePage</b><br>Test class: com.DeltaX.TestUtility.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.DeltaX.TestUtility.RegistrationTest@39c0f4a</td></tr>
+</table><p>
+</body>
+</html>
